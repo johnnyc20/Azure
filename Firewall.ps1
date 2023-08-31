@@ -1,0 +1,1 @@
+﻿New-AzFirewallRule -Name "AllowHTTP" -ResourceGroupName "MyResourceGroup" -FirewallName "MyFirewall" -Protocol "TCP" -SourceAddressPrefix "10.0.0.0/16" -DestinationAddressPrefix "Internet" -DestinationPort "80"
